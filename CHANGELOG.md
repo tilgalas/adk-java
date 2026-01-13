@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.6.0](https://github.com/tilgalas/adk-java/compare/v0.5.0...v0.6.0) (2026-01-13)
+
+
+### Features
+
+* Add event compaction framework in Java ADK ([dd68c85](https://github.com/tilgalas/adk-java/commit/dd68c8565ae43e30c2dd02bc956173ab199ebb56))
+* add ExampleTool to ComponentRegistry ([2e1b09f](https://github.com/tilgalas/adk-java/commit/2e1b09fdd07fb22839ea91bd109e409b44df4f82))
+* Add VertexAiSearchTool and AgentTools for search ([b48b194](https://github.com/tilgalas/adk-java/commit/b48b194448c6799e08e778c4efa2d9c920f0c1fb))
+* enable LoopAgent configuration ([d1a1cea](https://github.com/tilgalas/adk-java/commit/d1a1cea4a633f376463d7e47b79bfb67126537ad))
+* Forward state delta to parent session ([00d6d30](https://github.com/tilgalas/adk-java/commit/00d6d3034e07ceaa738a1ff1384d8fd879339b06))
+* **HITL:** Declining a proposal now correctly intercepts the run ([9611f89](https://github.com/tilgalas/adk-java/commit/9611f8967e528c6242e17ad3ad5419e0b25fb3fb))
+* **HITL:** Let ADK resume after HITL approval is present ([9611f89](https://github.com/tilgalas/adk-java/commit/9611f8967e528c6242e17ad3ad5419e0b25fb3fb))
+* Integrate event compaction in Java ADK runner ([54c826c](https://github.com/tilgalas/adk-java/commit/54c826c80c2bfe09056396c2a21f8241f9d2898b))
+* Refactor EventsCompactionConfig to require a summarizer ([864d606](https://github.com/tilgalas/adk-java/commit/864d6066eb98af6567592055f7cd24cb78defaf3))
+* register GoogleMapsTool in ComponentRegistry ([464f0b2](https://github.com/tilgalas/adk-java/commit/464f0b2fc0231dbe161b0b5fe524687bb304cd49))
+* support stdio_connection_params in McpToolset config ([cc1588a](https://github.com/tilgalas/adk-java/commit/cc1588a3e669dc670595ecbdebb12dc9d2ae40f0))
+* use Credentials' request metadata to populate headers ([e01df11](https://github.com/tilgalas/adk-java/commit/e01df116e311016df92e69487c0a6607b00384bc))
+
+
+### Bug Fixes
+
+* Add name and description to configagent pom.xml ([4948bfc](https://github.com/tilgalas/adk-java/commit/4948bfc9a35ea22660f37a6afc3474fab220b630))
+* Align InMemorySessionService listSessions with Python implementation ([9434949](https://github.com/tilgalas/adk-java/commit/94349499d03f3a131af4464def4b208db52a8feb))
+* Always use a mutable HashMap for default function arguments ([c6c9557](https://github.com/tilgalas/adk-java/commit/c6c9557ff28feece54265fcff82478156afbe67f))
+* Events for HITL are now emitted correctly ([9611f89](https://github.com/tilgalas/adk-java/commit/9611f8967e528c6242e17ad3ad5419e0b25fb3fb))
+* HITL endless loop when asking for approvals ([9611f89](https://github.com/tilgalas/adk-java/commit/9611f8967e528c6242e17ad3ad5419e0b25fb3fb))
+* Make FunctionResponses respect the order of FunctionCalls ([a99c75b](https://github.com/tilgalas/adk-java/commit/a99c75bf79d86866db26135568bf36b685886659))
+* Making stepsCompleted thread-safe ([d432c64](https://github.com/tilgalas/adk-java/commit/d432c6414128cf83eb0211eb18ef058dbbcd1807))
+* populate finishReason in LlmResponse ([dace210](https://github.com/tilgalas/adk-java/commit/dace2106cd2451d8271c842da13daff65de0922e))
+* Remove obsolete [@param](https://github.com/param) tags from SessionController Javadoc ([a77971a](https://github.com/tilgalas/adk-java/commit/a77971a9ac983acbceab15db7eeb36460a0ba759))
+* Replace [@api](https://github.com/api)Note with &lt;p&gt; in Javadoc comments. ([ac16d53](https://github.com/tilgalas/adk-java/commit/ac16d53db0d7b0d2a3aa3a12c1db1f819d7c6c21))
+* update converters package classes ([b66e4a5](https://github.com/tilgalas/adk-java/commit/b66e4a5280688a9533ed314103a0b290191a51cf))
+* update EmbeddingModelDiscoveryTest package statement ([adeb9dc](https://github.com/tilgalas/adk-java/commit/adeb9dca945004334f4af6a6442e41dd856d1612))
+* update old version strings ([d7b7510](https://github.com/tilgalas/adk-java/commit/d7b75109d20bc6e04f3cd2bf4410b9bba828520c))
+
 ## [0.3.0](https://github.com/google/adk-java/compare/v0.2.0...v0.3.0) (2025-09-17)
 
 
