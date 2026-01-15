@@ -101,6 +101,7 @@ public class Telemetry {
     span.setAttribute("gcp.vertex.agent.invocation_id", invocationContext.invocationId());
     span.setAttribute("gcp.vertex.agent.event_id", eventId);
     span.setAttribute("gcp.vertex.agent.tool_response", functionResponseEvent.toJson());
+    span.setAttribute("just.to.make.a.change", "true");
 
     // Setting empty llm request and response (as the AdkDevServer UI expects these)
     span.setAttribute("gcp.vertex.agent.llm_request", "{}");
