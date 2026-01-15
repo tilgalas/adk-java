@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.8.0](https://github.com/tilgalas/adk-java/compare/v0.6.0...v0.8.0) (2026-01-15)
+
+
+### Features
+
+* add some random attribute ([2ebdfc4](https://github.com/tilgalas/adk-java/commit/2ebdfc4b6ef287f62f8aa06277ecf947e2f76e5a))
+
+
+### Miscellaneous Chores
+
+* override ver to 0.8.0 ([addeadf](https://github.com/tilgalas/adk-java/commit/addeadfb7c83a30953a5d8a6e6b616dca3d1e358))
+
 ## [0.6.0](https://github.com/tilgalas/adk-java/compare/v0.5.0...v0.6.0) (2026-01-14)
 
 
