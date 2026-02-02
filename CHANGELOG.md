@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.0](https://github.com/tilgalas/adk-java/compare/v0.8.0...v0.9.0) (2026-02-02)
+
+
+### Features
+
+* another change ([227af44](https://github.com/tilgalas/adk-java/commit/227af44a0a4fc9315ff772ab2a4edd7b9c4ea444))
+
 ## [0.8.0](https://github.com/tilgalas/adk-java/compare/v0.6.0...v0.8.0) (2026-01-15)
 
 
