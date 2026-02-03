@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://github.com/tilgalas/adk-java/compare/v0.9.0...v0.10.0) (2026-02-03)
+
+
+### Features
+
+* add hello ([1fe372e](https://github.com/tilgalas/adk-java/commit/1fe372e3d7db559760fa1e6f7740b36d97c58e76))
+
 ## [0.9.0](https://github.com/tilgalas/adk-java/compare/v0.8.0...v0.9.0) (2026-02-02)
 
 
